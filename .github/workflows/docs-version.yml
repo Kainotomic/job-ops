@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   version-docs:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64, kainotomic]
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
