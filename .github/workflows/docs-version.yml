@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   version-docs:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-2vcpu-ubuntu-2404
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
