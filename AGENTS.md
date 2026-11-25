@@ -65,6 +65,10 @@ Use consistent status/code mapping:
 - LLM prompts: send only required profile/job fields; avoid unnecessary PII.
 - Document external payload behavior when adding new integrations.
 
+## PR Titles
+
+Use `type(scope): description (KEY-123)` for every new Jira-linked PR, including drafts. Choose `feat`, `fix`, `docs`, `ci`, `chore`, `refactor`, `test` or `perf`. Use an imperative description and aim for about 50 characters before the key. Example `fix(routes): preserve the selected job filter (KOPS-123)`.
+
 ## PR Checklist (Routes/Services)
 
 - API responses follow `{ ok, data/error, meta.requestId }`.
